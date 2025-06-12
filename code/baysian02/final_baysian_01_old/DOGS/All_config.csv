@@ -1,0 +1,36 @@
+,Staffy_vetCompass,Labradors_vetCompass,Jack_Russell_vetCompass,German_Shepherd_vetCompass
+h5_file_name,StaffyVC,LabradorVC,Jack_RussellVC,GermanShepherdVC
+folder,baysian01/simulation_results/DOGS/Staffy_vetCompass,baysian01/simulation_results/DOGS/Labrador_vetCompass,baysian01/simulation_results/DOGS/Jack_Russell_vetCompass,baysian01/simulation_results/DOGS/German_Shepherd_vetCompass
+nsteps,5000,5000,5000,5000
+time_step_multiplier,7,7,7,7
+npeople,20000,20000,20000,20000
+t_end,20,20,20,20
+n_jobs,300,300,300,400
+nwalkers,10,10,10,10
+n_mcmc_steps,800,800,800,800
+job_name,Staffy,Labrador,JackRussell,GerShep
+initial_memory,1,1,1,1
+max_memory,1,1,1,1
+name,Staffy_vetCompass,Labrador_vetCompass,Jack_Russell_vetCompass,German_Shepherd_vetCompass
+run_file_mcmc,baysian01/run_mcmc.csh,baysian01/run_mcmc.csh,baysian01/run_mcmc.csh,baysian01/run_mcmc.csh
+run_file_nested,baysian01/run_nested.csh,baysian01/run_nested.csh,baysian01/run_nested.csh,baysian01/run_nested.csh
+metric,baysian,baysian,baysian,baysian
+data_file,baysian01/datasets/DOGS/Staffordshire_Bull_Terrier_vetCompass.csv,baysian01/datasets/DOGS/Labrador_vetCompass.csv,baysian01/datasets/DOGS/Jack_Russell_vetCompass.csv,baysian01/datasets/DOGS/German_Shepherd_vetCompass.csv
+seed_file,baysian01/seeds/DOGS/Staffordshire_Bull_Terrier.csv,baysian01/seeds/DOGS/Labrador_vetCompass.csv,baysian01/seeds/DOGS/Jack_Russell.csv,baysian01/seeds/DOGS/German_Shepherd.csv
+variations,"[0.1, 10]","[0.1, 10]","[0.1, 10]","[0.1, 10]"
+prior,5,5,5,5
+transform,True,True,True,True
+time_range,,,,
+external_hazard,4.6708258138234795,5.148345370646279,4.88374312070825,4.290634299961573
+data_dt,0.5,0.5,0.5,0.5
+nested,False,False,False,False
+mcmc,True,True,True,True
+expansion,"[0.02,50]","[0.02,50]","[0.02,50]","[0.02,50]"
+maxiter,3000,3000,3000,3000
+queue,medium,medium,medium,medium
+results_csv_file_name,Staffy_vetCompass_results.csv,Labrador_vetCompass.csv,Jack_Russell_results.csv,German_Shepherd_results.csv
+index,2,3,1,2
+submission_folder,baysian01/simulation_results/DOGS/Staffy_vetCompass/Staffy_vetCompass_submit_07_01_2025,baysian01/simulation_results/DOGS/Labrador_vetCompass/Labrador_vetCompass_submit_07_01_2025,baysian01/simulation_results/DOGS/Jack_Russell_vetCompass/Jack_Russell_vetCompass_submit_07_01_2025,baysian01/simulation_results/DOGS/German_Shepherd_vetCompass/German_Shepherd_vetCompass_submit_07_01_2025
+nbins,100,100,100,100
+seed,[ 3.31068157 50.69080851 68.15659989 17.21579134],[ 3.55079556 51.10980474 65.03506787 17.83603992],[ 2.99922698 52.87924474 72.61524904 17.10401079],[ 3.94393039 51.64022568 75.07223112 19.0311662 ]
+seed_trans,[ 5.20007466 15.31129087  4.34856598 17.21579134],[ 5.02311092 14.39390242  4.89158127 17.83603992],[ 5.7028064  17.63095797  4.02872935 17.10401079],[ 4.82543157 13.09359461  4.82449078 19.0311662 ]

@@ -1,0 +1,15 @@
+2. Add the grid probability estimate to analysis
+    a. make an object that can be saved and loaded
+    b. add marginal posterior presentations VVVV
+
+3. Add deathtime distribution presentation. If possible incorporate cesored data.
+
+4. check distributions from raw MCMC compared with all the post process things
+
+5. make sure the probability sums to 1
+
+6. plot covariances in non cartesian form
+
+7. support heteroginaity
+
+8. TEST CHANGE OF ERROR WITH SAMPLE SIZE

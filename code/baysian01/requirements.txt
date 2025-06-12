@@ -1,0 +1,13 @@
+numpy
+scipy
+matplotlib
+h5py
+pandas
+seaborn
+scikit-learn
+lifelines
+emcee
+numba
+chardet
+openpyxl
+statsmodels

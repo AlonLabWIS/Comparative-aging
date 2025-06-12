@@ -1,0 +1,33 @@
+,drosophila_853,drosophila_707,drosophila_441,drosophila_217
+h5_file_name,drosophila_853,drosophila_707,drosophila_441,drosophila_217
+folder,baysian01/simulation_results/DROSOPHILA01/drosophila_853,baysian01/simulation_results/DROSOPHILA01/drosophila_707,baysian01/simulation_results/DROSOPHILA01/drosophila_441,baysian01/simulation_results/DROSOPHILA01/drosophila_217
+nsteps,5000,5000,5000,5000
+time_step_multiplier,2,2,2,2
+npeople,20000,20000,20000,20000
+t_end,100,100,100,100
+n_jobs,200,200,200,200
+nwalkers,15,15,15,15
+n_mcmc_steps,1000,1000,1000,1000
+job_name,Drosophila_853,Drosophila_707,Drosophila_441,Drosophila_217
+initial_memory,1,1,1,1
+max_memory,1,1,1,1
+name,drosophila_853,drosophila_707,drosophila_441,drosophila_217
+run_file_mcmc,baysian01/run_mcmc.csh,baysian01/run_mcmc.csh,baysian01/run_mcmc.csh,baysian01/run_mcmc.csh
+run_file_nested,baysian01/run_nested.csh,baysian01/run_nested.csh,baysian01/run_nested.csh,baysian01/run_nested.csh
+metric,baysian,baysian,baysian,baysian
+data_file,baysian01/datasets/DROSOPHILA/drosofila_853.csv,baysian01/datasets/DROSOPHILA/drosofila_707.csv,baysian01/datasets/DROSOPHILA/drosofila_441.csv,baysian01/datasets/DROSOPHILA/drosofila_217.csv
+seed_file,baysian01/seeds/DROSOPHILA/drosofila_853_seed.csv,baysian01/seeds/DROSOPHILA/drosofila_707_seed.csv,baysian01/seeds/DROSOPHILA/drosofila_441_seed.csv,baysian01/seeds/DROSOPHILA/drosofila_217_seed.csv
+variations,"[[[0.3, 3]], [[0.2, 5]], [[0.3, 3]], [[0.2, 5]]]","[[[0.3, 3]], [[0.2, 5]], [[0.3, 3]], [[0.2, 5]]]","[[[0.3, 3]], [[0.2, 5]], [[0.3, 3]], [[0.2, 5]]]","[[[0.5, 2]], [[0.2, 5]], [[0.5, 2]], [[0.2, 5]]]"
+prior,10,10,10,10
+data_dt,2.0,2.0,2.0,2.0
+transform,True,True,True,True
+time_range,,,,
+external_hazard,,,,None
+mcmc,True,True,True,True
+queue,short,short,short,short
+results_csv_file_name,drosophila_853.csv,drosophila_707.csv,drosophila_441.csv,drosophila_217.csv
+index,2,2,2,3
+submission_folder,baysian01/simulation_results/DROSOPHILA01/drosophila_853/drosophila_853_submit_30_01_2025,baysian01/simulation_results/DROSOPHILA01/drosophila_707/drosophila_707_submit_30_01_2025,baysian01/simulation_results/DROSOPHILA01/drosophila_441/drosophila_441_submit_30_01_2025,baysian01/simulation_results/DROSOPHILA01/drosophila_217/drosophila_217_submit_30_01_2025
+nbins,100,100,100,100
+seed,[  0.94299216   1.23993498 766.72294394 347.12825981],[  0.71770357   1.45733989 478.41395897 260.83744334],[3.42187796e-01 1.81618323e+00 2.94437517e+02 4.40829964e+02],[  0.8242457    1.21231748 469.33505651 458.35366336]
+seed_trans,[368.1136229    1.31489426 157.15980552 347.12825981],[363.43339174   2.03055961 142.21192875 260.83744334],[1288.26910232    5.30756286  660.00779825  440.82996422],[556.08863355   1.47082051 447.62921031 458.35366336]

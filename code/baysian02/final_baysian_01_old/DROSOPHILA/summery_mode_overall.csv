@@ -1,0 +1,25 @@
+,drosophila_853,drosophila_707,drosophila_441,drosophila_217
+xc/eta,100.606,237.43,323.203,585.496
+beta/eta,46.886,8.241,31.446,1.018
+xc^2/epsilon,24.017,92.727,139.087,456.506
+xc,134.054,267.873,923.645,493.355
+eta,1.332,0.0448,1.542,4.416
+beta,62.474,0.311,47.675,3.942
+epsilon,748.258,1.314,1959.093,14184.322
+sqrt(xc/eta),10.03,15.409,17.978,24.197
+s= eta^0.5*xc^1.5/epsilon,2.394,6.018,7.737,18.866
+beta*xc/epsilon,11.192,3.219,13.532,0.794
+eta*xc/epsilon,0.239,0.391,0.43,0.78
+Fx=beta^2/eta*xc,21.85,0.286,3.06,0.00177
+Dx =beta*epsilon/eta*xc^2,1.952,0.0889,0.226,0.00223
+Pk=beta*k/epsilon,0.0417,0.00601,0.0122,0.000805
+Fk=beta^2/eta*k,5858.223,153.26,2947.469,1.748
+Dk =beta*epsilon/eta*k^2,140330.203,25510.22,283427.86,5076.738
+Fk^2/Dk=beta^3/eta*epsilon,244.557,0.921,18.019,0.000817
+beta^2/epsilon,5.216,0.0496,1.317,0.00138
+k/beta,0.008,0.246,0.00556,0.583
+k/epsilon,0.000668,0.00601,8.15e-05,0.000938
+best fit_MedianLifetime,,,,
+best fit_MaxLifetime,,,,
+data_MedianLifetime,,,,
+data_MaxLifetime,,,,

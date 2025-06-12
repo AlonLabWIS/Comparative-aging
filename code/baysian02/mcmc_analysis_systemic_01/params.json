@@ -1,0 +1,177 @@
+[
+    {
+        "file": "mice_F_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "days",
+        "nbins": 150,
+        "subfolder": null
+    },
+    {
+        "file": "mice_M_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "days",
+        "nbins": 150,
+        "subfolder": null
+    },
+    {
+        "file": "yeast_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "generations",
+        "nbins": 100,
+        "subfolder": null
+    },
+    {
+        "file": "celegance_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "days",
+        "nbins": 100,
+        "subfolder": null
+    },
+    {
+        "file": "ecoli_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "hours",
+        "nbins": 100,
+        "subfolder": null
+    },
+    {
+        "file": "cats_BPH_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": null
+    },
+    {
+        "file": "drosophila_853_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "days",
+        "nbins": 100,
+        "subfolder": "DROSOPHILA"
+    },
+    {
+        "file": "drosophila_707_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "days",
+        "nbins": 100,
+        "subfolder": "DROSOPHILA"
+    },
+    {
+        "file": "drosophila_441_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "days",
+        "nbins": 100,
+        "subfolder": "DROSOPHILA"
+    },
+    {
+        "file": "drosophila_217_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "days",
+        "nbins": 100,
+        "subfolder": "DROSOPHILA"
+    },
+    {
+        "file": "humans_M_combined_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "HUMANS"
+    },
+    {
+        "file": "humans_F_combined_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "HUMANS"
+    },
+    {
+        "file": "Sweden_M_1910_hetro_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "HUMANS"
+    },
+    {
+        "file": "Sweden_F_1910_homo_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "HUMANS"
+    },
+    {
+        "file": "Sweden_F_1910_hetro_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "HUMANS"
+    },
+    {
+        "file": "Denmark_M_1900_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "HUMANS"
+    },
+    {
+        "file": "Denmark_M_1900_homo_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "HUMANS"
+    },
+    {
+        "file": "Denmark_M_1890_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "HUMANS"
+    },
+    {
+        "file": "Denmark_M_1890_homo_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "HUMANS"
+    },
+    {
+        "file": "Denmark_F_1900_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "HUMANS"
+    },
+    {
+        "file": "Denmark_F_1890_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "HUMANS"
+    },
+    {
+        "file": "Staffy_vetCompass_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "DOGS"
+    },
+    {
+        "file": "Labradors_vetCompass_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "DOGS"
+    },
+    {
+        "file": "Jack_Russell_vetCompass_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "DOGS"
+    },
+    {
+        "file": "German_Shepherd_vetCompass_post.csv",
+        "scale": 1,
+        "TIME_UNIT": "years",
+        "nbins": 100,
+        "subfolder": "DOGS"
+    }
+] 

@@ -1,0 +1,36 @@
+,mice_F,mice_M,yeast,celegance,ecoli,cats_BPH
+h5_file_name,miceF,miceM,yeast,celegance,ecoli,catsBPH
+folder,baysian01/simulation_results/miceF,baysian01/simulation_results/miceM2,baysian01/simulation_results/yeast,baysian01/simulation_results/celegance,baysian01/simulation_results/ecoli,baysian01/simulation_results/catsBPH
+nsteps,5000,5000,5000,6000,5000,5000
+time_step_multiplier,4,4,1,1,4,10
+npeople,20000,20000,20000,20000,20000,20000
+t_end,1500,1500,70,35,150,25
+n_jobs,500,500,500,500,250,500
+nwalkers,10,10,15,15,10,10
+n_mcmc_steps,1000,1000,1000,1000,1000,1000
+job_name,miceF,miceM,yeast,celegance,ecoli,Cats
+initial_memory,1,1,1,1.2,1,1
+max_memory,1,1,1,1.2,1,1
+name,miceF,miceM,yeast,celegance,ecoli,Cats
+run_file_mcmc,baysian01/run_mcmc.csh,baysian01/run_mcmc.csh,baysian01/run_mcmc.csh,baysian01/run_mcmc.csh,baysian01/run_mcmc.csh,baysian01/humans/run_mcmc_hetro.csh
+run_file_nested,baysian01/run_nested.csh,baysian01/run_nested.csh,baysian01/run_nested.csh,baysian01/run_nested.csh,,
+metric,baysian,baysian,baysian,baysian,baysian,baysian
+data_file,baysian01/datasets/mice_f_ds.csv,baysian01/datasets/mice_m_ds2.csv,baysian01/datasets/yeast_ds.csv,baysian01/datasets/celegance_ds.csv,baysian01/datasets/ecoli_ds.csv,baysian01/datasets/cats_data_BPH.csv
+seed_file,baysian01/seeds/Mice_F.csv,baysian01/seeds/Mice_M.csv,baysian01/seeds/Yeast.csv,baysian01/seeds/Celegance.csv,baysian01/seeds/Ecoli.csv,baysian01/seeds/Cats.csv
+variations,"[0.1, 10]","[0.1, 10]","[0.1, 10]","[0.1, 10]","[0.1, 10]","[[0.1, 10], [0.1, 10], [0.1, 10], [0.1, 10], [0.8, 1.2]]"
+prior,5,5,5,5,5,"[7, 7, 7, 7, [0.7, 1.3]]"
+transform,True,True,True,True,True,True
+time_range,,,,,,"[4, 25]"
+external_hazard,,,,,,3.494409763384334
+nested,False,False,False,False,,
+mcmc,True,True,True,True,True,True
+expansion,"[0.02,50]","[0.02,50]","[0.02,50]","[0.02,50]",,
+maxiter,3000,3000,3000,3000,,
+queue,short,short,short,short,short,medium
+results_csv_file_name,Mice_F.csv,Mice2_M.csv,Yeast.csv,celegance.csv,Ecoli.csv,catsBPH.csv
+index,2,3,2,1,1,1
+submission_folder,baysian01/simulation_results/miceF/miceF_submit_08_12_2024,baysian01/simulation_results/miceM2/miceM_submit_24_12_2024,baysian01/simulation_results/yeast/yeast_submit_04_12_2024,baysian01/simulation_results/celegance/celegance_submit_09_12_2024,baysian01/simulation_results/ecoli/ecoli_submit_22_01_2025,baysian01/simulation_results/catsBPH/Cats_submit_21_01_2025
+nbins,150,150,100,100,100,100
+seed,[1.600e-04 1.000e-01 1.800e-01 2.097e+01],[1.100e-03 1.970e+00 2.830e+00 1.471e+01],[9.000e-02 2.400e-02 1.905e+01 5.186e+01],[ 0.21  0.67  2.29 22.33],[ 0.20286179 22.52278969 50.19867879 22.34021282],[ 6.57455305 79.82853053 39.63595093 54.6055472 ]
+seed_trans,[1.310625e+05 6.250000e+02 2.443005e+03 2.097000e+01],[13372.72727273  1790.90909091    76.46081272    14.71      ],[5.76222222e+02 2.66666667e-01 1.41178982e+02 5.18600000e+01],[106.33333333   3.19047619 217.74187773  22.33      ],[110.12528634 111.02529258   9.9421961   22.34021282],[ 8.30559078 12.14204676 75.22881917 54.6055472 ]
+hetro,,,,,,True
